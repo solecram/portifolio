@@ -1,3 +1,4 @@
+/* Mobile */
 .title {
     display: flex;
     flex-direction: column;
@@ -6,7 +7,7 @@
 }
 
 .title__profile{
-    width: 30vw;
+    width: 25%;
 }
 
 .title__container{
@@ -28,4 +29,29 @@
     display: flex;
     gap: 1.5em;
     font-weight: 700;
+}
+
+/* Tablet */
+@media (min-width: 768px){
+    .title{
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    .title__container{
+        gap: 0.5em;
+    }
+
+    .title__bio{
+        font-size: 1.38em;
+    }
+
+    .title__subsection{
+        padding-right: 2em;
+    }
+
+    .title__network{
+        font-weight: 400;
+    }
 }
