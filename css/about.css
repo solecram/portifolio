@@ -1,0 +1,21 @@
+.about{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.about__title{
+    font-size: 1.38em;
+    font-weight: 800;
+}
+
+.about__paragraph{
+    font-size: 1.04em;
+    text-align: left;
+}
+
+.about__img{
+    width: 40vw;
+}

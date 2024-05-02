@@ -1,0 +1,31 @@
+@import url(reset.css);
+@import url(header.css);
+@import url(title.css);
+@import url(about.css);
+@import url(skills-hobbies.css);
+@import url(academic.css);
+@import url(experience.css);
+@import url(formcontato.css);
+@import url(footer.css);
+
+body{
+    background-color: #F5F5F5;
+    line-height: 1;
+    font-family: 'Raleway';
+    color: #464646;
+    overflow-x: hidden;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
