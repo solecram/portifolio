@@ -1,0 +1,31 @@
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+}
+
+.title__profile{
+    width: 30vw;
+}
+
+.title__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.title__bio{
+    font-size: 1.70em;
+}
+
+.title__subsection{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.title__network{
+    display: flex;
+    gap: 1.5em;
+    font-weight: 700;
+}

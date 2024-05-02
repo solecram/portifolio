@@ -1,0 +1,36 @@
+.skills,
+.hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 1em;
+}
+
+.skills__title,
+.hobbies__title{
+    font-size: 1.38em;
+}
+
+.skills__line,
+.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em 1em;
+}
+
+.skills__box,
+.hobbies__box{
+    width: 35vw;
+    height: 20vh;
+    display: flex;
+    background-color: #fff;
+    padding: 16px;
+}
+
+.skills__box ul,
+.hobbies__box ul{
+    align-self: flex-end;
+}
