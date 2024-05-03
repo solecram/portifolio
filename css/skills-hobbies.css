@@ -1,8 +1,8 @@
+/* Mobile */
 .skills,
 .hobbies{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     gap: 2em;
     padding: 1em;
@@ -33,4 +33,29 @@
 .skills__box ul,
 .hobbies__box ul{
     align-self: flex-end;
+}
+
+/* Tablet */
+@media (min-width:768px){
+    .skills,
+    .hobbies{
+        padding: 2em;
+    }
+
+    .skills__line,
+    .hobbies__line{
+        flex-wrap: wrap;
+        justify-content: unset;
+    }
+
+    .skills__box,
+    .hobbies__box{
+        width: 24vw;
+        height: 14vh;
+    }
+
+    .skills__name,
+    .hobbies__name{
+        font-weight: 700;
+    }
 }
