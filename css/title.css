@@ -17,17 +17,18 @@
 }
 
 .title__bio{
-    font-size: 1.70em;
+    font-size: 1.38em;
 }
 
 .title__subsection{
-    font-size: 1em;
+    font-size: 0.88em;
     font-weight: 400;
 }
 
 .title__network{
     display: flex;
     gap: 1.5em;
+    font-size: 0.88em;
     font-weight: 700;
 }
 
