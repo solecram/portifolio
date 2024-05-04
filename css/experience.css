@@ -6,6 +6,10 @@
     padding: 2em;
 }
 
+.experience__section__title{
+    font-size: 1.38em;
+}
+
 .experiencie__box,
 .experience__info{
     display: flex;
@@ -17,9 +21,6 @@
     width: 100%;
 }
 
-.experience__section__title{
-    font-size: 1.38em;
-}
 
 .experience__text{
     font-weight: 400;
@@ -47,4 +48,39 @@
 .experiencia__botao--demo{
     background-color: #2A7AE4;
     color: #fff;
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .experience{
+        padding: 2em 4em;
+        gap: 2em;
+    }
+
+    .experience__section__title{
+        font-size: 2em;
+    }
+    
+    .experiencie__box{
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .experience__img{
+        width: 65%;
+    }
+
+    .experience__title{
+        font-size: 1.38em;
+    }
+
+    .experience__text{
+        font-size: 1em;
+    }
+
+    .experiencia__botao--repo,
+    .experiencia__botao--demo{
+        width: 11vw;
+        padding: 1em;
+    }
 }

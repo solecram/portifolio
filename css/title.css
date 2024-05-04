@@ -7,7 +7,7 @@
 }
 
 .title__profile{
-    width: 25%;
+    width: 22%;
 }
 
 .title__container{
@@ -39,6 +39,10 @@
         align-items: center;
         padding: 2em;
     }
+
+    .title__profile{
+        width: 25%;
+    }
     
     .title__container{
         gap: 0.5em;
@@ -50,9 +54,36 @@
 
     .title__subsection{
         padding-right: 2em;
+        font-size: 1em;
     }
 
     .title__network{
+        font-size: 1em;
         font-weight: 400;
+    }
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .title{
+        padding: 2em 4em;
+    }
+
+    .title__profile{
+        width: 33%;
+    }
+    
+    .title__container{
+        gap: 1.5em;
+    }
+
+    .title__bio{
+        font-size: 2.813em;
+    }
+
+    .title__subsection{
+        font-size: 1.38em;
+        text-align: justify;
+        padding: unset;
     }
 }

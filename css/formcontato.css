@@ -44,15 +44,45 @@
 .formcontato__input::placeholder,
 .formcontato__textarea::placeholder{
     font-family: 'Raleway';
-    font-size: 16px;
+    font-size: 1em;
 }
 
 .formcontato__botao{
     height: 5.45vh;
     padding: 0.75em 1em;
+    font-family: 'Raleway';
     font-size: 0.88em;
-    font-weight: 600;
     background-color: #2A7AE4;
     color: #fff;
     border: none;
+}
+
+/* Desktop */
+@media (min-width:1024px){
+    .formcontato{
+        display: flex;
+        gap: 1em;
+        padding: 4em;
+    }
+
+    .formcontato__contacto{
+        gap: 1em;
+        padding-top: 4em;
+    }
+
+    .formcontato--esquerda{
+        display: block;
+    }
+
+    .formcontato__img{
+        height: 62.5vh;
+    }
+
+    .formcontato__title{
+        font-size: 2em;
+    }
+
+    .formcontato__subtext{
+        text-align: justify;
+    }
 }
