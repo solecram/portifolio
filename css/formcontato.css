@@ -8,6 +8,12 @@
     justify-content: center;
 }
 
+.error__message {
+    font-size: 1em;
+    margin: 1em 0;
+    color: #f00;
+}
+
 .formcontato--esquerda{
     display: none;
 }
@@ -35,7 +41,7 @@
 .formcontato__input,
 .formcontato__textarea{
     width: 95%;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding: 1.25em 1em;
     border: none;
     border-radius: 0.25em;
